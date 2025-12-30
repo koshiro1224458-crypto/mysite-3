@@ -1,0 +1,223 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(43, 43, 43);
+    text-decoration: none;
+    list-style: none;
+    /* background-color: rgb(255, 254, 254); */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px;
+
+}
+
+header nav {
+    display: block;
+    width: 40%;
+    display: flex;
+}
+
+header nav a {
+
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 10px 16px;
+}
+
+.form-btn {
+    background-color: rgb(16, 16, 199);
+    color: white;
+    border-radius: 20px;
+}
+
+.header {
+    display: none;
+}
+
+
+/* メイン */
+
+.hero {
+    background-image: url(IF-about00.avif);
+    object-fit: cover;
+    height: 250px;
+    text-align: center;
+    align-items: center;
+}
+
+.hero h3 {
+    color: white;
+    padding-top: 70px;
+    font-size: 30px;
+}
+
+.hero h2 {
+    color: white;
+    font-size: 40px;
+}
+
+
+/* Index Fingerについて */
+
+.about {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.about h3 {
+    color: rgb(35, 35, 202);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.about h2 {
+    font-size: 30px;
+    border-bottom: 2px solid rgb(35, 35, 202);
+    width: 550px;
+    margin: 5px auto;
+    padding-bottom: 10px;
+}
+
+.about img {
+    margin-top: 20px;
+    width: 300px;
+}
+
+.about p {
+    width: 550px;
+    margin: 20px auto;
+    font-size: 19px;
+    text-align: left;
+    padding-bottom: 100px;
+}
+
+
+/* 会社概要 */
+
+.information {
+    background-color: rgb(228, 233, 249);
+}
+
+.information {
+    text-align: center;
+    padding-top: 100px;
+    width: 100%;
+    padding-bottom: 50px;
+
+}
+
+.information h3 {
+    color: rgb(35, 35, 202);
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.information h2 {
+    font-size: 30px;
+    width: 550px;
+    margin: 5px auto;
+    padding-bottom: 10px;
+}
+
+.information ul {
+    width: 650px;
+    margin: 10px auto;
+}
+
+.information li {
+    display: flex;
+    padding: 20px;
+    border-top: solid 1px #c8c8c8;
+    gap: 15px;
+}
+
+.sp-br {
+    display: none;
+}
+
+.information li:nth-child(6) {
+    border-bottom: solid 1px #c8c8c8;
+}
+
+.first {
+    width: 130px;
+    text-align: left;
+}
+
+
+/* お問い合わせ */
+.contact {
+    text-align: center;
+    background-image: linear-gradient(rgba(83, 81, 81, 0.85), rgba(26, 25, 25, 0.85)), url(IF-recruit01.avif);
+    object-fit: cover;
+    padding-bottom: 50px;
+
+}
+
+.contact h3 {
+    font-size: 25px;
+    color: white;
+    padding-top: 40px;
+
+}
+
+.contact h2 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contact div {
+    display: flex;
+    background-color: white;
+    width: 50%;
+    margin-left: 25%;
+    padding: 20px;
+}
+
+.contact div img {
+    width: 50%;
+}
+
+.contact div a {
+    background-color: rgb(16, 16, 199);
+    color: white;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+    padding: 25px;
+    width: 350px;
+
+
+}
+
+/* フッター */
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer img {
+    width: 200px;
+}
+
+footer p {
+
+    font-size: 15px;
+}
